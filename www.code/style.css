@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width:100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    background: white;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    color: red;
+}
+header img{
+    width:100px;
+    border-right: 2px solid #D5D5D5;
+    padding-right: 9px;
+}
+
+header h4{
+    margin-left: 120px;
+    margin-top: -27px;
+    color: red;
+
+}
+header h5{
+    margin-left: 1050px;
+    margin-top: -1.7em;
+
+    border-bottom: 2px solid #D5D5D5;
+    margin-right: 14.6%;
+}
+body{
+    background-color: #D5D5D5;
+}
+.bienvenida{
+    margin: 0 auto;
+    background: yellow;
+    margin-top: 64px;
+    padding-top: 26px;
+    padding-bottom: 16px;
+    padding-left: 144px;
+    padding-right: 768px;
+}
+section h4{
+    line-height: 2em;
+}
+
+.imgPresentacion{
+    width: 8em;
+    margin-left: 750px;
+    margin-top: -40px;
+}
+
+.imgBienvenida{
+    width: 8em;
+    margin-left: 750px;
+    margin-top: -65px;
+}
+
+.imgEjemplos{
+    width: 8em;
+    margin-left: 750px;
+    margin-top: -45px;
+}
+
+.imgTransformaciones{
+    width: 5em;
+    margin-left: 750px;
+    margin-top: -45px;
+}
+
+.modulo{
+    margin: 4em;
+    background: white;
+    float: left;
+    margin-left: 12em;
+    height: 210px;
+}
+
+.modulos img{
+    width: 10em;
+}
+
+.modulos p{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.6em;
+}
+
+.ingresar{
+    color: red;
+    margin-left: 3.41em;
+}
+
+
+.final{
+    margin-top: 21em;
+    background-color: #434342;
+    padding-left: 7em;
+    padding-bottom: 2em;
+}
+
+.logo{
+    width: 12em;
+}
+
+.redes{
+    margin-top: 3em;
+    padding-left: 45em;
+    width: 11em;
+}
+
+#modulo_transformaciones p{
+    padding-bottom: 0em;
+}
+
+.teoria{
+    margin-top: 3em;
+    margin-left: 2em;
+}
+
+.titulo{
+    margin-top: 4em;
+    padding-bottom: 0em;
+    margin-right: 63em;
+    border-bottom: 2px solid red;
+}
+
+.teoria p{
+    padding-left: 2em;
+    padding-top: 1.3em;
+    margin-right: 35em;
+}
+
+.lista_simple{
+    width: 20em;
+    margin-left: 49em;
+    margin-top: -6.5em;
+}
+
+.lista_doble{
+    width: 27em;
+    margin-left: 49em;
+    margin-top: -6em;
+}
+
+.lista_circular{
+    width: 22em;
+    margin-left: 49em;
+    margin-top: -8em;
+}
+
+.pila{
+    width: 13em;
+    margin-left: 49em;
+    margin-top: -10em;
+}
+
+.categorias{
+    padding-top: 1em;
+    padding-left: 5em;
+}

@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible">
+        <title>LVaED</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/universidad_pontificia_logo.png" alt="">
+            <a href="LVaED.html"><h4>LVaED</h4></a>
+            <h5>Menú</h5>
+        </header>
+        <section class="bienvenida">
+                    <h4>Bienvenido al módulo de presentación</h4>
+                    <img class="imgPresentacion" src="imagenes/img_presentacion.PNG" alt="">
+        </section>
+        <div class="teoria">
+            <h4 class="titulo">Listas enlazadas</h4>
+            <p>Una lista enlazada es una colección o secuencia de elementos dispuestos uno detrás de
+                otro, en la que cada elemento se conecta al siguiente elemento por un “enlace”. La idea básica
+                consiste en construir una lista cuyos elementos, llamados nodos, se componen de dos partes
+                (campos): la primera parte contiene la información y es, por consiguiente, un valor de un tipo
+                genérico (denominado Dato, TipoElemento, Info, etc.), y la segunda parte es un enlace que
+                apunta al siguiente nodo de la lista.</p>
+            <p>Se pueden dividir a las listas enlazadas en 4 categorías en las cuales profundizaremos más adelante</p>
+            <ul class="categorias">
+                <li>Listas simplemente enlazadas</li>
+                <li>Listas doblemente enlazadas</li>
+                <li>Lista circular simplemente enlazada</li>
+                <li>Lista circular doblemente enlazada</li>
+            </ul>
+            <h4 class="titulo">Listas simplemente enlazadas</h4>
+            <p>Una lista enlazada simple es una estructura de datos en la que cada nodo posee dos elementos, el objeto y el apuntador
+                al siguiente nodo. De este modo, teniendo la referencia del principio de la lista podemos acceder a todos los elementos 
+                de la misma.</p><p>En las listas simplemente enlazadas, el nodo de la cola que apunta al siguiente es nulo.</p>
+                <img class="lista_simple" src="imagenes/lista_enlazada_simple.jpg" alt="">
+            <h4 class="titulo">Listas doblemente enlazadas</h4>
+            <p>Una lista doblemente enlazada es una estructura de datos que consiste en un 
+                conjunto de nodos enlazados secuencialmente. Cada nodo contiene tres campos, 
+                dos para los llamados enlaces, que son referencias al nodo siguiente y al anterior
+                 en la secuencia de nodos, y otro más para el almacenamiento de la información en este caso un entero.</p>
+            <p>Como ejemplo pensemos que debemos almacenar un menú de opciones en una lista, la opción a seleccionar puede 
+                ser la siguiente o la anterior, podemos desplazarnos en ambas direcciones.</p>
+            <p>En las listas doblemente enlazadas, la referencia al nodo anterior de la cabeza es nulo, de igual forma que la referencia
+                al nodo siguiente de la cola.</p>
+                <img class="lista_doble" src="imagenes/lista_doblemente_enlazada.jpg" alt="">
+            <h4 class="titulo">Listas circulares</h4>
+            <p>Las listas circulares son estructuras de datos en la que el último nodo apunta al primero lo cual la convierte 
+                en una lista sin fin, de igual forma cuentan con un nodo inicial y un nodo final. Es útil contar con un criterio de parada
+                cuando se esté navegando por los nodos de la lista para no entrar en un bucle sin fin.</p> 
+                <p>En el caso de las listas circulares sencillas, los nodos solo poseen una referencia al nodo siguiente, mientras que en las
+                    listas circulares doblemente enlazadas, los nodos poseen dos referencias, una referencia para el nodo anterior y otra para
+                    el siguiente, su estructura es muy similar a las listas simples por lo cual comparten características tanto en su 
+                    implementación como en su manejo.</p>
+            <img class="lista_circular" src="imagenes/lista_circular.jpg" alt="">
+            <h4 class="titulo">Pila</h4>
+            <p>Una pila es una lista ordinal o estructura de datos en la que el modo de acceso a sus elementos es de tipo LIFO 
+                que permite almacenar y recuperar datos. Esta estructura se aplica en multitud de ocasiones en el área de informática 
+                debido a su simplicidad y ordenación implícita de la propia estructura.</p>
+            <p>Para el manejo de los datos se cuenta con dos operaciones básicas: apilar (push), que coloca un objeto en la pila, y 
+                su operación inversa, retirar (o desapilar, pop), que retira el último elemento apilado.</p>
+            <img class="pila" src="imagenes/pila.jpg" alt="">
+        </div>
+        <footer>
+            <div class="final">
+                <img class="logo" src="imagenes/logo_fin.png" alt="">
+                <img class="redes" src="imagenes/redes.png" alt="">
+            </div>
+        </footer>
+    </body>
+</html>
